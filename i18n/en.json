@@ -1,0 +1,332 @@
+{
+  "Navigation": {
+    "SvitTouch": "Svit Touch",
+    "SvitHome": "Svit Home",
+    "Gallery": "Gallery",
+    "Contacts": "Contacts",
+    "AboutUs": "About Us",
+    "Documentation": "Documentation",
+    "Home": "Main",
+
+    "KeyPads": "Keypads",
+    "Sockets": "Sockets",
+    "Thermostats": "Thermostat",
+    "Accessories": "Accessories",
+    "OrderCTA": "Order",
+
+    "Overview": "Overview",
+    "Soft": "Soft",
+    "Modules": "Modules",
+    "OptionalEquipment": "Optional Equipment",
+
+    "AllPhotos": "All photos",
+    "TouchSwitch": "Touch Switch",
+    "RoomController": "Room controller",
+    "Thermostat": "Thermostat",
+
+    "Login": "Login",
+    "Back": "Back",
+    "ContactUs": "Contact us",
+    "SubscribeToNewsletter": "Subscribe to newsletter",
+    "AllRightsReserved": "All rights reserved",
+    "PrivacyPolicy": "Privacy Policy"
+  },
+  "Home": {
+    "Left": {
+      "Title": "Сенсорні панелі",
+      "Description": "Svit Touch презентація"
+    },
+    "Right": {
+      "Title": "Розумний будинок",
+      "Description": "Svit Home презентація"
+    }
+  },
+  "SvitTouch": {
+    "Keypads": {
+      "HeroSection": {
+        "Title": "Touch switch",
+        "Description": "Смарт рішення для комфортного життя",
+        "Button": "Придбати"
+      },
+      "ComfortSection": {
+        "Title": "Технології у кожному дотику. Більше ніяких компромісів між функціональністю та технологічною естетикою.",
+        "Description": "Вимикачі розроблені інженерами, схваленні дизайнерами та перевірені користувачами."
+      },
+      "TapticEngineSection": {
+        "FirstText": "Відчуй функціональність на дотик з технологією Taptic Engine",
+        "SecondText": "Моментальне реагування на дотик. Відгук вимикача відповідає силі натиску, отже дія завжди співпадає з результатом.",
+        "ThirdText": "Taptic Engine.",
+        "FourthText": "Неповторний досвід. Отримайте нові враження і емоції від використання девайса.",
+        "FifthText": "Реагування вимикача на дотик дає можливість використовувати його інтуїтивно і бути впевненим в його роботі."
+      },
+      "ScenariosSection": {
+        "Title": "Комфорт в керуванні",
+        "Description": "Витрачайте час на те, що любите, а не на налаштування. Об'єднайте завдання і керуйте ними за допомогою усього одного жесту.",
+        "NightScenario": "Включити сценарій ‘НІЧ’",
+        "DayScenario": "Включити сценарій ‘ДЕНЬ’"
+      },
+      "DecompositionSection": {
+        "Title": "SVIT touch - це поєднання естетики і функціональності.",
+        "Description": "Ми об'єднали дизайн і технології, щоб зробити ваш будинок ще прекрасніше, управління - простіше, ваше життя - краще.",
+        "1": "Анодований алюміній",
+        "2": "Швидкий і універсальний монтаж",
+        "3": "Просте встановлення",
+        "4": "Інтерфейс KNX",
+        "5": "М’який натиск",
+        "6": "Тaptic Engine",
+        "7": "Чутливі тензодатчики",
+        "8": "Можливість взаємодії з кожним міліметром панелі",
+        "9": "Індивідуальна підсвітка",
+        "10": "Особливі візуальні ефекти",
+        "11": "Контроль безлічі показників",
+        "12": "Загартоване матове скло",
+        "13": "Інтуїтивна навігація"
+      },
+      "ChooseSection": {
+        "TitleLeft": "Твоє бажання.",
+        "TitleRight": "Твій дизайн.",
+        "LeftPanel": "Білий анод",
+        "RightPanel": "Чорний кварц"
+      },
+      "SizeSection": {
+        "TitleLeft": "Твій комфорт.",
+        "TitleRight": "Твій стиль."
+      },
+      "WoahSection": {
+        "Woah": "Woah",
+        "Title": "Розміри що здатні дивувати",
+        "Description": "Some description",
+        "Button": "Order",
+        "First": "Висота",
+        "Second": "Ширина",
+        "Third": "Товщина",
+        "Fourth": "Глибина натиску"
+      }
+    },
+    "Sockets": {
+      "HeroSection": {
+        "Title": "Sockets",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    },
+    "Thermostat": {
+      "HeroSection": {
+        "Title": "Thermostat",
+        "Description": "Thermostat description",
+        "Button": "Order"
+      },
+      "TapticEngineSection": {
+        "LeftTitle": "Title",
+        "RightDescription": "Description",
+        "ThirdText": "Third",
+        "FourthText": "Fourth",
+        "FifthText": "Fifth"
+      },
+      "ThermoScenariosSection": {
+        "Title": "Some title",
+        "Description": "Some description",
+        "NightScenario": "Night",
+        "DayScenario": "Day"
+      },
+      "PlayTemperatureSection": {
+        "Title": "Some title",
+        "Description": "Some description"
+      },
+      "SmartHomeIntegrationsSection": {
+        "Title": "Some title",
+        "Description": "Some description",
+        "FirstSmartHomeCompany": {
+          "Description": "Some description"
+        },
+        "SecondSmartHomeCompany": {
+          "Description": "Some description"
+        },
+        "ThirdSmartHomeCompany": {
+          "Description": "Some description"
+        }
+      },
+      "WoahSection": {
+        "First": "First text",
+        "Second": "Second text",
+        "Third": "Third text",
+        "Title": "Title",
+        "FirstNumber": "First",
+        "SecondNumber": "Second",
+        "ThirdNumber": "Third",
+        "FourthNumber": "Fourth"
+      }
+    },
+    "Accessories": {
+      "HeroSection": {
+        "Title": "Accessories",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    }
+  },
+  "SvitHome": {
+    "Overview": {
+      "HeroSection": {
+        "Title": "Smart home",
+        "Description": "Transfer to a new world of comfort",
+        "Button": "Order"
+      },
+      "FeaturesSection": {
+        "LeftTitle": "Automate your personal comfort and privacy",
+        "RightDescription": "Daily, every minute, with style and elegance, to the smallest detail - without any effort.",
+        "CurtainsControl": {
+          "Title": "Curtains and blinds",
+          "Description": "control, schedule, enjoy the sunrise & sunset"
+        },
+        "FloorHeating": {"Title": "Floor heating", "Description": "warm in morning, evening, in winter, always"},
+        "SecuritySystemsIntegration": {
+          "Title": "Integrated security system",
+          "Description": "Comprehensive home protection 24/7"
+        },
+        "ClimateControl": {"Title": "Сlimate control", "Description": "Optimal temperature and air humidity"},
+        "GatesAndGarage": {"Title": "Gates and garage", "Description": "automatic opening and closing"},
+        "Scenas": {
+          "Title": "Integrated scenarios",
+          "Description": "One click launches a set of specific actions - for the time of departure, sleep, return"
+        },
+        "LightningControl": {
+          "Title": "Automation lighting system",
+          "Description": "control the light in the house and on the premises via the app"
+        },
+        "UsersSettings": {
+          "Description": "Personal settings",
+          "Me": "me",
+          "Husband": "husband",
+          "OurKid": "our kid",
+          "Grandpa": "grandpa",
+          "Grandma": "grandma",
+          "Mechanic": "mechanic",
+          "Security": "security"
+        },
+        "RGB": {
+          "Title": "RGB"
+        },
+        "AdaptiveLight": {
+          "Title": "Adaptive light"
+        },
+        "VideoMotion": {
+          "Title": "Video monitoring online",
+          "Description": "territory control, alarm and surveillance cameras"
+        },
+        "LeaksProtect": {"Title": "Leakage protection", "Description": "Complete safety during your vacation"},
+        "Multimedia": {
+          "Description": "Multimedia integration",
+          "Radio": "Radio",
+          "AirPlay": "Airplay"
+        },
+        "Ventilation": {"Title": "Ventilation", "Description": "always fresh, healthy air"}
+      },
+      "ExploreSection": {
+        "Title": "Technologies of a modern world",
+        "Description": "New controller technology that can provide full automation solutions. Quickly and efficiently. With no worries."
+      },
+      "DownloadSection": {
+        "AllInOneTitle": "The app that can do it all",
+        "AllInOneDescription": "All functions of your smart home control are collected in one app. Easy to use, intuitive and personalized interface is your key to a new world of comfort."
+      },
+      "AutomateRoutineSection": {
+        "Title": "Automate your routine",
+        "Description": "Artificial intelligence and machine learning",
+        "DescriptionSecond": "When you come home, do you usually switch off the alarm, close the curtains and turn on the lights in the hallway and kitchen?",
+        "DescriptionThird": "Your smart home will notice the repetitive actions and will offer you the appropriate complex scenario - so everything will be done automatically!",
+        "PhoneText": "Setup from any device",
+        "ClockText": "Saving you time",
+        "LocationText": "Access from any location in the world",
+        "UserCheckText": "Personalized settings",
+        "LeftCellText": "A system that can imitate human behavior to perform tasks and gradually learn by collecting and analyzing information",
+        "RightCellText": "The process of training artificial intelligence for its independent work and expanding the information base for more accurate task performance"
+      },
+      "AboutHardSection": {
+        "Title": "This is how the technology of the tomorrow looks like",
+        "Description": "Controllers are high-tech equipment built using modern materials. Each controller performs its functions with high speed and accuracy",
+        "First": "First text",
+        "Second": "Second text",
+        "Third": "Third text",
+        "Fourth": "Fourth text"
+      },
+      "VoiceAssistantsSection": {
+        "LeftTitle": "Waiting for your command...",
+        "RightDescription": "Simple voice control of all functions.",
+        "ContentDescription": "The SVIT app can easily be integrated into your smart home and synchronized with your usual voice control via Siri, Google or Alexa.",
+        "SiriText": "Hey Siri, close the curtains",
+        "GoogleText": "Ok Google, turn off the light in the house",
+        "AlexaText": "Alexa, I wanna go sleep"
+      }
+    },
+    "Soft": {
+      "HeroSection": {
+        "Title": "Soft",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    },
+    "Modules": {
+      "HeroSection": {
+        "Title": "Modules",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    },
+    "OptionalEquipment": {
+      "HeroSection": {
+        "Title": "Optional Equipment",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    },
+    "Accessories": {
+      "HeroSection": {
+        "Title": "Accessories",
+        "Description": "Coming soon",
+        "Button": "Оставить заявку"
+      }
+    }
+  },
+  "Gallery": {
+    "AllPhotos": {
+      "ShowMoreButton": "Show more"
+    }
+  },
+  "Contacts": {
+    "ContactWithUs": "Contact with us",
+    "Address": "м. Kyiv, 62 Degtyarivska St., 1st floor"
+  },
+  "AboutUs": {
+    "HeroSection": {
+      "Title": "About us",
+      "Description": "Coming soon",
+      "Button": "Оставить заявку"
+    }
+  },
+  "Documentation": {
+    "HeroSection": {
+      "Title": "Documentation",
+      "Description": "Coming soon",
+      "Button": "Оставить заявку"
+    }
+  },
+  "CTABlock": {
+    "Title": "Підмітили що наша продукція має однаковий дизайн?",
+    "CTAText": "Я хочу цю розетку"
+  },
+  "UnderConstruction": {
+    "Text": "Website is under construction"
+  },
+  "NotFound": {
+    "Title": "Not found"
+  },
+  "Suffixes": {
+    "MM": "мм",
+    "M": " m",
+    "S": " s."
+  },
+  "Buttons": {
+    "Buy": "Purchase"
+  }
+}

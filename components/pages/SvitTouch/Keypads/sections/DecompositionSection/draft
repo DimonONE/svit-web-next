@@ -1,0 +1,206 @@
+import {useEffect, useRef} from 'react';
+
+import gsap from 'gsap/dist/gsap';
+
+import Test from '@assets/';
+
+import PanelBack from '@assets/panel/panel-back.png';
+import PanelBolts from '@assets/panel/panel-bolts.png';
+import PanelCarcass from '@assets/panel/panel-carcass.png';
+import PanelFittings from '@assets/panel/panel-fittings.png';
+import PanelFront from '@assets/panel/panel-front.png';
+import PanelPlug from '@assets/panel/panel-plug.png';
+import PanelSensors from '@assets/panel/panel-sensors.png';
+
+import {DecompositionSectionWrapper} from './DecompositionSection.styled';
+
+const images = [
+  {
+    src: PanelBack,
+    left: '0%',
+    className: 'image-1 image',
+    children: {
+      src: PanelBolts,
+      className: 'image-1-1',
+      height: 31,
+      rotate: 'rotate(-2deg)',
+    },
+  },
+  {
+    src: PanelPlug,
+    height: 200,
+    left: '20%',
+    translateX: '-25%',
+    className: 'image-3 image',
+  },
+  {
+    src: PanelFittings,
+    left: '40%',
+    translateX: '-50%',
+    className: 'image-4 image',
+  },
+  {
+    src: PanelCarcass,
+    left: '100%',
+    className: 'image-5 image',
+    translateX: '-200%',
+    children: {
+      src: PanelSensors,
+      className: 'image-5-1',
+      height: 10,
+      rotate: 'rotate(-10deg)',
+    },
+  },
+  {
+    src: PanelFront,
+    left: '100%',
+    translateX: '-110%',
+    className: 'image-6 image',
+  },
+];
+
+const distances = ['0%', '20%', '40%', '100%', '100%'];
+
+const DecompositionSection: React.FC = () => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const imagesItems = gsap.utils.toArray<HTMLImageElement>('.image');
+
+    if (ref && ref.current) {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          pin: true,
+          pinSpacing: true,
+          trigger: ref.current,
+          start: '+=60 +=120',
+          end: 'bottom+=3500 bottom',
+          scrub: 0.5,
+        },
+      });
+
+      imagesItems.forEach((image, index) => {
+        tl.fromTo(
+          image,
+          {
+            left: distances[index],
+            xPercent: -50,
+            duration: 2,
+          },
+          {
+            left: '0%',
+            xPercent: 0,
+            duration: 2,
+          },
+          0
+        );
+      });
+
+      // imagesItems.reverse().forEach((image, index) => {
+      //   tl.to(image, {
+      //     left: '25%',
+      //     xPercent: 25,
+      //     duration: 1.5,
+      //   }).to(image, {
+      //     left: '150%',
+      //     xPercent: 150,
+      //     duration: 1,
+      //     delay: 0.5,
+      //   });
+      // });
+    }
+    // });
+
+    // tl.fromTo(
+    //   '.image-1',
+    //   {
+    //     left: '-5%',
+    //     xPercent: -25,
+    //   },
+    //   {
+    //     left: distances[0],
+    //     xPercent: -25,
+    //   },
+    //   0
+    // )
+    //   .fromTo(
+    //     '.image-3',
+    //     {
+    //       left: '15%',
+    //       xPercent: 15,
+    //     },
+    //     {
+    //       left: distances[1],
+    //       xPercent: -25,
+    //     },
+    //     0
+    //   )
+    //   .fromTo(
+    //     '.image-6',
+    //     {
+    //       left: '130%',
+    //       xPercent: 25,
+    //     },
+    //     {
+    //       left: distances[4],
+    //       xPercent: -25,
+    //     },
+    //     0
+    //   )
+    //   .fromTo(
+    //     '.image-5',
+    //     {
+    //       left: '50%',
+    //       xPercent: -50,
+    //     },
+    //     {
+    //       left: distances[3],
+    //       xPercent: -25,
+    //     },
+    //     0
+    //   )
+    //   .to(
+    //     '.image-1-1',
+    //     {
+    //       y: 75,
+    //       delay: -0.1,
+    //       duration: 0.1,
+    //     },
+    //     0
+    //   )
+    //   .to(
+    //     '.image-5-1',
+    //     {
+    //       y: 75,
+    //       delay: 0.2,
+    //     },
+    //     0
+    //   );
+  }, []);
+
+  return (
+    <DecompositionSectionWrapper ref={ref}>
+      <div style={{height: 700, width: 1100}}>
+        {images.map((image, index) => {
+          const {src, height, left, className, children, translateX} = image;
+
+          return (
+            <div
+              style={{left, zIndex: index + 1, transform: `translateX(${translateX})`}}
+              className={`image-wrapper ${className}`}
+            >
+              <img src={src} style={{zIndex: index + 1, height}} />
+              {children ? (
+                <div className={children.className}>
+                  <img src={children.src} style={{zIndex: 0, height: children.height, transform: children.rotate}} />
+                </div>
+              ) : null}
+            </div>
+          );
+        })}
+      </div>
+    </DecompositionSectionWrapper>
+  );
+};
+
+export default DecompositionSection;

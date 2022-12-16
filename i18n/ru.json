@@ -1,0 +1,66 @@
+{
+  "Navigation": {
+    "SvitTouch": "Svit Touch",
+    "SvitHome": "Svit Home",
+    "Gallery": "Gallery",
+    "Contacts": "Contacts",
+    "AboutUs": "About Us",
+    "Documentation": "Documentation",
+
+    "KeyPads": "Keypads",
+    "Sockets": "Sockets",
+    "Thermostats": "Thermostats",
+    "Accessories": "Accessories",
+    "OrderCTA": "Order",
+
+    "Overview": "Overview",
+    "Soft": "Soft",
+    "Modules": "Modules",
+    "OptionalEquipment": "Optional Equipment",
+
+    "AllPhotos": "All Photos",
+    "TouchSwitch": "Touch Switch",
+    "RoomController": "Room controller",
+    "Thermostat": "Thermostat"
+  },
+  "SvitTouch": {
+    "KeyPads": {
+      "HeroSection": {
+        "Title": "Touch switch",
+        "Description": "Смарт решения для удобного проживания",
+        "Button": "Оставить заявку"
+      },
+      "ComfortSection": {
+        "Title": "Комфорт и эстетика в одном девайсе. Приятно смотреть, еще приятнее пользоваться.",
+        "Description": "Комфорт и эстетика в одном девайсе. Приятно смотреть, еще приятнее пользоваться."
+      },
+      "TapticEngineSection": {
+        "FirstText": "Функциональность под кончиками пальцев. Мгновенная реация, мгновенный результат.",
+        "SecondText": "Svit.Switch имеет чувствительную технологию реагирования. Ни одно прикосновение не остается незамеченным. Реакция выключателя соответствует силе нажатия на панель, поэтому действие всегда совпадает с результатом.",
+        "ThirdText": "Taptic Engine.",
+        "FourthText": "Непревзойденный опыт прикосновений. Получите новые впечатления и эмоции от работы с девайсом.",
+        "FifthText": "Вибрация под каждую функцию дает возможность пользоваться панелью без надобности смотреть на экран."
+      },
+      "ScenariosSection": {
+        "Title": "Комфорт в управлении",
+        "Description": "Тратьте время на то, что любите, а не на настройки. Управляйте панелью всего одним жестом.",
+        "NightScenario": "Включить сценарий НОЧЬ",
+        "DayScenario": "Включить сценарий ДЕНЬ"
+      },
+      "DecompositionSection": {
+        "Description": "Svit.Switch - это сочетание эстетики и функциональности. Мы обьединили дизайн и технологии, чтобы сделать дом еще прекраснее, управление - проще, жизнь - лучше."
+      },
+      "ChooseSection": {
+        "Title": "Выбирай удобство.  Выбирай эстетику."
+      },
+      "WoahSection": {
+        "Woah": "Woah",
+        "Title": "Some title",
+        "Description": "Some description"
+      }
+    }
+  },
+  "NotFound": {
+    "Title": "Page was not found"
+  }
+}
