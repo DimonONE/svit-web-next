@@ -28,11 +28,10 @@ export default function App({ Component, pageProps }: AppProps) {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap" rel="stylesheet" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
       </Head>
-      
-      <GlobalStyle />
       <Container>
         <Component {...pageProps} />
       </Container>
+      <GlobalStyle />
     </>
   );
 };

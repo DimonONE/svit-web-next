@@ -18,7 +18,7 @@ import Colors from '@styles/Colors';
 import {BottomText, CTABlockWrapper, Circle, CirclesWrapper, LeftBlock, RightBlock} from './CTABlock.styled';
 
 export const ChevronRightIcon: React.FC<Partial<CustomIconComponentProps>> = props => {
-  return <Icon component={ChevronRight} {...props} />;
+  return <Icon component={() => <ChevronRight />} {...props} />;
 };
 
 const iconStyle: CSSProperties = {

@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 import {useTranslation} from 'react-i18next';
 import Image from 'next/image';
 
-import gsap from 'gsap';
+import gsap from 'gsap/dist/gsap';
 
 import {Text} from '@custom-antd';
 

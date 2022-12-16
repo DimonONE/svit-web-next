@@ -37,7 +37,7 @@ const Keypads: React.FC = () => {
   useEffect(() => {
     const components = gsap.utils.toArray<HTMLDivElement>('.gsap-section');
 
-    components.forEach((panel, i) => {
+    components.forEach((panel:HTMLDivElement, i: number) => {
       const start = !i ? 0 : 60;
       const end = components.length * 100;
 

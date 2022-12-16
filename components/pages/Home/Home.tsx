@@ -22,13 +22,13 @@ const Home: React.FC = () => {
 
   const iconStyle: CSSProperties = {
     marginLeft: 5,
-    padding: 3,
+    padding: '5px 7px',
     borderRadius: '50%',
     backgroundColor: Colors.grey1,
     fontSize: 14,
   };
 
-  const {isTablet, ...props} = useContext(MainContext);
+  const {isTablet} = useContext(MainContext);
   const svitTouchBGImage = isTablet ? SvitTouchTabletBG : SvitTouchBG;
   const smartHomeBGImage = isTablet ? SmartHomeTabletBG : SmartHomeBG;
 

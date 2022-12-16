@@ -55,6 +55,7 @@ export const DecompositionSectionWrapper = styled.section`
       height: 100%;
 
       img {
+        width: auto;
         height: 100%;
       }
 

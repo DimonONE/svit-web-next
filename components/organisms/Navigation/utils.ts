@@ -24,7 +24,9 @@ export type NavItem = {
   toSpread?: boolean;
 };
 
-export const blackNavStyleRoutes = ['/', '/contacts', '/about-us', '/svit-home/modules', '/blog'];
+export const blackNavStyleRoutes = ['/', '/contacts', '/about-us', '/svit-home/modules', '/authors'];
+
+export const hiddenFooter = ['/'];
 
 export const navItems: NavItem[] = [
   {
@@ -94,6 +96,12 @@ export const navItems: NavItem[] = [
         key: 'documentation',
         i18nKey: 'Documentation',
         route: '/documentation',
+        children: [],
+      },
+      {
+        key: 'authors',
+        i18nKey: 'Authors',
+        route: '/authors',
         children: [],
       },
     ],

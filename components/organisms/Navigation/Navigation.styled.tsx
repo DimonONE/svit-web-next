@@ -75,6 +75,10 @@ export const NavigationListItemWrapper = styled.li<{color?: string; $isRoot?: bo
 
   cursor: pointer;
 
+  a:hover {
+    color: #fff;
+  }
+
   &:hover {
     text-decoration: underline;
 

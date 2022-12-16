@@ -32,18 +32,6 @@ const Container: React.FC<IProps> = ({children}) => {
   const isTablet = windowDimension <= 1024;
   const isMobile = windowDimension <= 768;
 
-  const changeLanguage = (lang: string) => {
-    i18next.changeLanguage(lang);
-
-    localStorage.setItem('svit-system-language', lang);
-  };
-
-  const onCloseBar = () => {
-    setVisibleState(false);
-
-    localStorage.setItem('isVisible', 'false');
-  };
-
   gsap.registerPlugin(ScrollTrigger);
   const currentLanguage = localStorage.getItem('svit-system-language');
 
@@ -54,7 +42,7 @@ const Container: React.FC<IProps> = ({children}) => {
       i18n.changeLanguage(currentLanguage);
     }
   }, []);
-
+  
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -74,6 +62,18 @@ const Container: React.FC<IProps> = ({children}) => {
 
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  const changeLanguage = (lang: string) => {
+    i18next.changeLanguage(lang);
+
+    localStorage.setItem('svit-system-language', lang);
+  };
+
+  const onCloseBar = () => {
+    setVisibleState(false);
+
+    localStorage.setItem('isVisible', 'false');
+  };
 
   const mainContextValue = {
     // dispatch,
