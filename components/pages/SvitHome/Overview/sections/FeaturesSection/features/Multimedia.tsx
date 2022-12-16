@@ -1,6 +1,4 @@
 import {useTranslation} from 'react-i18next';
-import Image from 'next/image';
-
 import styled from 'styled-components';
 
 import {Text} from '@custom-antd';

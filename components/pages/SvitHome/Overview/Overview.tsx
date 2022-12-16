@@ -7,15 +7,14 @@ import {HeroSection} from '@molecules';
 import SvitHomeOverviewVideo from '@assets/svit-home/overview/svit-home.mp4';
 
 import {MainContext} from '@contexts';
-// @ts-ignore
-import {Overlay, OverviewWrapper, Video} from './Overview.styled';
 import AboutHardSection from './sections/AboutHardSection';
-import AboutHardSectionMobile from './sections/AboutHardSection';
+import AboutHardSectionMobile from './sections/AboutHardSection/AboutHardSectionMobile';
 import AutomateRoutineSection from './sections/AutomateRoutineSection';
 import DownloadSection from './sections/DownloadSection';
 import ExploreSection from './sections/ExploreSection';
 import FeaturesSection from './sections/FeaturesSection';
 import VoiceAssistantsSection from './sections/VoiceAssistantsSection';
+import {Overlay, OverviewWrapper, Video} from './Overview.styled';
 
 const Overview: React.FC = () => {
   const {isLaptop} = useContext(MainContext);

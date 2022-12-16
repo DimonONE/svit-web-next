@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 
-import gsap from 'gsap/dist/gsap';
+import gsap from 'gsap';
 
 import {Title} from '@custom-antd';
 

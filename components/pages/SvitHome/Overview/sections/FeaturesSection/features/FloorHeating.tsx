@@ -7,10 +7,9 @@ import styled from 'styled-components';
 import {Feature} from '@molecules';
 
 import FloorHeatingBG from '@assets/floor-heating.jpg';
-// import FloorHeatingAnimation from '@assets/svit-home/overview/floor-heating.svg';
+import FloorHeatingAnimation from '@assets/svit-home/overview/floor-heating.svg';
 
 import {FeatureWrapperProps} from './utils';
-
 
 const InnerWrapper = styled.div`
   position: absolute;
@@ -20,8 +19,7 @@ const InnerWrapper = styled.div`
   margin-left: -20px;
   margin-top: -20px;
 
-  /* background-image: url(${FloorHeatingAnimation}); */
-  /* background: red; */
+  background-image: url(${FloorHeatingAnimation});
   background-repeat: repeat;
 `;
 
