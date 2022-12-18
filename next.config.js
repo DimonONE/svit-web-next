@@ -1,11 +1,25 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   styledComponents: true,
   i18n: {
     locales: ['en-US', 'ukr'],
     defaultLocale: 'en-US',
+  },
+  async redirects() {
+    return [
+      {
+        source: '/:path',
+        has: [
+          {
+            type: 'host',
+            value: 'https://svit-web-next.vercel.app/',
+          },
+        ],
+        permanent: false,
+        destination: '/',
+      },
+    ]
   },
 }
 

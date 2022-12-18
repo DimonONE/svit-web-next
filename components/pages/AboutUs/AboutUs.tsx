@@ -2,8 +2,11 @@
 import {useTranslation} from 'react-i18next';
 
 import {Text} from '@custom-antd';
+
 import {DoubleColRow} from '@molecules';
-import  SvitLogoLight from '@assets/svit-logo-light.svg';
+
+import SvitLogoLight from '@assets/svit-logo-light.svg';
+
 import Colors from '@styles/Colors';
 
 import {AboutUsWrapper, BottomFrame, QuoteWrapper} from './AboutUs.styled';
@@ -15,7 +18,9 @@ const AboutUs: React.FC = () => {
     <AboutUsWrapper className="vertical-spacing">
       <div className="section">
         <DoubleColRow
-          leftContent={<Text className="biggest regular">{t('LeftTitle')}</Text>}
+          leftContent={
+            <Text className="biggest regular">{t('LeftTitle')}</Text>
+          }
           rightContent={
             <Text color={Colors.grey1} className="big regular">
               {t('RightDescription')}

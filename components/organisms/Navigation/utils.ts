@@ -26,7 +26,7 @@ export type NavItem = {
 
 export const blackNavStyleRoutes = ['/', '/contacts', '/about-us', '/svit-home/modules', '/authors'];
 
-export const hiddenFooter = ['/'];
+export const hiddenFooter = ['/', '/not-found'];
 
 export const navItems: NavItem[] = [
   {

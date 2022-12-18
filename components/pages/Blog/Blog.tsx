@@ -5,6 +5,8 @@ import ReadMore from "@atoms/ReadMore";
 import NewsImage from '@assets/blog/image.png';
 import Card from "@molecules/Card";
 import BusinessCard from "@molecules/BusinessCard";
+import Colors from "@styles/Colors";
+
 import { BlogInfo, CardContainer } from "./Blog.styled";
 
 const mock = [
@@ -34,7 +36,7 @@ const mock = [
 const Blog: React.FC = () => {
   return (
      <PageSection>
-      <Title color="#000000" fontWeight={800}>Блог</Title>
+      <Title color={Colors.black} fontWeight={800}>Блог</Title>
       <BlogInfo>
         <Card className='leftBlock' 
           name={mock[0].name}

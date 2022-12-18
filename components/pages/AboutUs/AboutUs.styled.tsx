@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-// import AboutUsBG from '@assets/about-us/about-us-bg.jpg';
+import AboutUsBG from '@assets/about-us/about-us-bg.jpg';
 
-import {maxDevice} from '@styles/MediaQueries';
+import { maxDevice } from '@styles/MediaQueries';
 
 export const AboutUsWrapper = styled.div`
   .section {
@@ -19,7 +19,7 @@ export const AboutUsWrapper = styled.div`
       top: -70px;
       left: 40px;
 
-      width: 250px;
+      width: auto;
       height: auto;
     }
   }
@@ -37,6 +37,7 @@ export const BottomFrame = styled.div`
   height: 600px;
   border-radius: 35px;
 
+  background-image: url('${AboutUsBG.src}');
   background-repeat: no-repeat;
   background-size: cover;
 
