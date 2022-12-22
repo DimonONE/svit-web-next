@@ -1,6 +1,5 @@
 import React from 'react';
 
-import {PageSection} from '@atoms';
 import ReadMore from '@atoms/ReadMore';
 
 import {Text, Title} from '@custom-antd';
@@ -8,12 +7,12 @@ import {Text, Title} from '@custom-antd';
 import BusinessCard from '@molecules/BusinessCard';
 import Card from '@molecules/Card';
 
-import Article_1 from '@assets/blog/article_1.png';
-import Article_2 from '@assets/blog/article_2.png';
-import Article_3 from '@assets/blog/article_3.png';
-import Article_4 from '@assets/blog/article_4.png';
-import Article_5 from '@assets/blog/article_5.png';
-import Article_6 from '@assets/blog/article_6.png';
+import ArticleOne from '@assets/blog/article_1.png';
+import ArticlTwo from '@assets/blog/article_2.png';
+import ArticleTree from '@assets/blog/article_3.png';
+import ArticleFour from '@assets/blog/article_4.png';
+import ArticleFive from '@assets/blog/article_5.png';
+import ArticleSix from '@assets/blog/article_6.png';
 import NewsImage from '@assets/blog/image.png';
 
 import Colors from '@styles/Colors';
@@ -26,42 +25,42 @@ const mock = [
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_1,
+    image: ArticleOne,
   },
   {
     id: 2,
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_2,
+    image: ArticlTwo,
   },
   {
     id: 3,
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_3,
+    image: ArticleTree,
   },
   {
     id: 4,
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_4,
+    image: ArticleFour,
   },
   {
     id: 5,
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_5,
+    image: ArticleFive,
   },
   {
     id: 6,
     name: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ',
     data: 'CARLIE BEBLIN | JULY 9, 2020',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
-    image: Article_6,
+    image: ArticleSix,
   },
 ];
 
