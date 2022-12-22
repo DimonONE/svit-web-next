@@ -1,28 +1,30 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Card = styled.div`
-  .name, .data {
+  .name,
+  .data {
     display: block;
     margin: 20px 0;
     text-transform: uppercase;
-  };
+  }
 
   .name {
     font-weight: 700;
-  };
+  }
 
-  .data, .info {
+  .data,
+  .info {
     font-weight: 600;
     font-size: 16px;
   }
 
   .data {
-    color: #E2E2E2;
-  };
+    color: #e2e2e2;
+  }
 
   .info {
-    color: #A5A39F;
-  };
+    color: #a5a39f;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -34,4 +36,9 @@ export const ImageContainer = styled.div`
   overflow: hidden;
   justify-content: center;
   align-items: center;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 `;

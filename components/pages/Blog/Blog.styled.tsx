@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 140px;
+`;
+
 export const BlogInfo = styled.div`
   display: flex;
   height: auto;
@@ -13,7 +19,8 @@ export const BlogInfo = styled.div`
 
   .rightBlock {
     .card {
-      &, .readMoreContainer {
+      &,
+      .readMoreContainer {
         display: flex;
       }
 
@@ -25,7 +32,7 @@ export const BlogInfo = styled.div`
 
     .title {
       font-weight: 700;
-    };
+    }
 
     .name {
       margin: 0;
@@ -33,31 +40,33 @@ export const BlogInfo = styled.div`
       font-weight: 600;
     }
 
-    .data { 
-      margin-top: 24px ;
-      margin-bottom: 10px ;
+    .data {
+      margin-top: 24px;
+      margin-bottom: 10px;
     }
-    .name, .data {
+    .name,
+    .data {
       display: block;
       text-transform: uppercase;
-    };
+    }
 
     .name {
       font-weight: 700;
-    };
+    }
 
-    .data, .info {
+    .data,
+    .info {
       font-weight: 600;
       font-size: 16px;
     }
 
     .data {
-      color: #E2E2E2;
-    };
+      color: #e2e2e2;
+    }
 
     .info {
-      color: #A5A39F;
-    };
+      color: #a5a39f;
+    }
   }
 `;
 

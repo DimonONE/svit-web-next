@@ -1,16 +1,26 @@
-import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
+import React, {useEffect, useRef} from 'react';
+
 import gsap from 'gsap/dist/gsap';
-import Colors from '@styles/Colors';
-import { Text, Title } from '@custom-antd';
+import Image from 'next/image';
+
+import {Text, Title} from '@custom-antd';
+
 import LukeHollandIMG from '@assets/blog/LukeHolland.png';
 import QuotesIMG from '@assets/blog/quotes.png';
-import { device, maxDevice } from '@styles/MediaQueries';
-import { CardSection, CardWrapper, NameAndIcon, TextWrapper } from './BusinessCard.styled';
+
+import Colors from '@styles/Colors';
+import {device, maxDevice} from '@styles/MediaQueries';
+
+import {
+  CardSection,
+  CardWrapper,
+  NameAndIcon,
+  TextWrapper,
+} from './BusinessCard.styled';
 
 const BusinessCard: React.FC = () => {
   const ref = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
     if (ref && ref.current) {
       const tl = gsap.timeline({
@@ -44,22 +54,24 @@ const BusinessCard: React.FC = () => {
     <CardWrapper ref={ref}>
       <TextWrapper>
         <Title className="textTitle text" fontWeight={600} color={Colors.black}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
         </Title>
         <Title className="subTitle text" color={Colors.black}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
         </Title>
       </TextWrapper>
-      
+
       <CardSection>
-        <div className='image-quotes'>
+        <div className="image-quotes">
           <Image src={QuotesIMG} alt="QuotesIMG" />
         </div>
         <NameAndIcon>
-          <div className='image-container'>
+          <div className="image-container">
             <Image src={LukeHollandIMG} alt="Luke Holland" />
           </div>
-          <Text className='name'>Luke Holland</Text>
+          <Text className="name">Luke Holland</Text>
         </NameAndIcon>
       </CardSection>
     </CardWrapper>
